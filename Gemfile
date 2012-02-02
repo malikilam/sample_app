@@ -38,3 +38,5 @@ group :test do
 end
 
 gem 'rspec-core', '2.6.4'
+
+gem 'autotest'
