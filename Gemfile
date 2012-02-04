@@ -39,6 +39,8 @@ end
 
 gem 'rspec-core', '2.6.4'
 
+
+gem 'autotest-standalone'
 # gem 'autotest'
 #gem 'autotest-fsevent' 
 #gem 'autotest-growl'
