@@ -39,4 +39,8 @@ end
 
 gem 'rspec-core', '2.6.4'
 
-gem 'autotest'
+# gem 'autotest'
+#gem 'autotest-fsevent' 
+#gem 'autotest-growl'
+#gem 'autotest-notification'
+#gem 'autotest-rails-pure'
