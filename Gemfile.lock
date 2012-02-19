@@ -28,6 +28,7 @@ GEM
       activemodel (= 3.0.9)
       activesupport (= 3.0.9)
     activesupport (3.0.9)
+    annotate (2.4.0)
     arel (2.0.10)
     autotest-standalone (4.5.9)
     builder (2.1.2)
@@ -96,6 +97,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  annotate
   autotest-standalone
   rails (= 3.0.9)
   rspec-core (= 2.6.4)
