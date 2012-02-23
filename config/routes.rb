@@ -1,6 +1,7 @@
 SampleApp::Application.routes.draw do
   
-  get "users/new"
+  resources :users
+  
 
     # just remember to delete public/index.html.
   root :to => "pages#home"
