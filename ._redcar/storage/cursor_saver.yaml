@@ -24,4 +24,7 @@ cursor_positions:
   - :path: db/migrate/20120322163523_add_salt_to_users.rb
     :cursor_offset: 0
     :timestamp: 2012-03-22 12:35:23.405000 -04:00
+  - :path: spec\factories.rb
+    :cursor_offset: 76
+    :timestamp: 2012-03-22 16:29:07.582000 -04:00
 files_to_retain: 0

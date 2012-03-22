@@ -1,4 +1,4 @@
-1332437150
+1332448742
 AddEmailUniquenessIndex	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/db/migrate/20120222072651_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/db/migrate/20120225055119_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/db/migrate/20120322163523_add_salt_to_users.rb	class AddSaltToUsers 
@@ -33,6 +33,7 @@ GET 'about'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/c
 GET 'contact'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
 GET 'home'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
 GET 'new'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'new'" do
+GET 'show'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	describe "GET 'show'" do
 GUTTER_WIDTH	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/stylesheets/lib/blueprint/blueprint.rb	  GUTTER_WIDTH =
 Generate default Blueprint stylesheets from the command line	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/stylesheets/features/generate_stylesheets.feature	Feature: Generate default Blueprint stylesheets from the command line
 Generate semantic selectors	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/stylesheets/features/generate_stylesheets.feature	Scenario: Generate semantic selectors
@@ -290,7 +291,6 @@ parseJSON	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/j
 partition	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/javascripts/prototype.js	function partition(iterator, context)
 password	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/app/models/user.rb	  attr_accessor :password
 password encryption	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	describe "password encryption" do
-password validations	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	describe "password validations" do
 passwords	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	describe "passwords" do
 path_to_string	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/stylesheets/lib/blueprint/core_ext.rb	  def self.path_to_string(path)
 pluck	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/javascripts/prototype.js	function pluck(property)
@@ -318,12 +318,14 @@ select	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/java
 semantic_classes	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/stylesheets/lib/blueprint/compressor.rb	    attr_accessor :namespace, :custom_css, :custom_layout, :semantic_classes, :project_name, :plugins, :custom_tests_path
 set	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/public/javascripts/prototype.js	function set(key, value)
 should accept valid email addresses	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should accept valid email addresses" do
+should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
+should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
+should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should be successful" do
-should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
-should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
-should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should be successful" do
+should be successful	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should be successful" do
 should create a new instance given valid attributes	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should create a new instance given valid attributes" do
 should exist	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should exist" do
+should find the right user	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should find the right user" do
 should have  a  signup   page  at '/signup'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/layout_links_spec.rb	it "should have  a  signup   page  at '/signup'" do
 should have a Contact page at '/contact'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/layout_links_spec.rb	it "should have a Contact page at '/contact'" do
 should have a Help page at '/help'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/layout_links_spec.rb	it "should have a Help page at '/help'" do
@@ -333,21 +335,17 @@ should have a password confirmation	C:/Users/Malik/Documents/Aptana Studio 3 Wor
 should have a salt	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should have a salt" do
 should have an About page at '/about'	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/requests/layout_links_spec.rb	it "should have an About page at '/about'" do
 should have an encrypted password attribute	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should have an encrypted password attribute" do
+should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
+should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
-should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
-should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
-should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should reject duplicate email addresses	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject duplicate email addresses" do
 should reject email addresses identical up to case	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject email addresses identical up to case" do
 should reject invalid email addresses	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject invalid email addresses" do
-should reject long passwords	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should reject long passwords" do
 should reject long passwords	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject long passwords" do
 should reject names that are too long	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject names that are too long" do
-should reject short passwords	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should reject short passwords" do
 should reject short passwords	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject short passwords" do
-should require a matching password confirmation	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should require a matching password confirmation" do
 should require a name	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should require a name" do
-should require a password	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should require a password" do
 should require an email address	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should require an email address" do
 should return false if the passwords don't match	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should return false if the passwords don't match" do
 should return nil for an email addres with no user	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should return nil for an email addres with no user" do
