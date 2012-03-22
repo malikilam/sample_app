@@ -1,0 +1,27 @@
+--- 
+cursor_positions: 
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 38
+    :timestamp: 2012-03-21 22:46:52.837000 -04:00
+  - :path: db/migrate/20120222072651_add_email_uniqueness_index.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-22 02:28:08.715000 -05:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-23 00:20:10.241000 -05:00
+  - :path: spec/models/user_spec.rb
+    :cursor_offset: 2214
+    :timestamp: 2012-03-21 23:03:11.256000 -04:00
+  - :path: Michael Hartl,
+    :cursor_offset: 0
+    :timestamp: 2012-02-19 02:11:51.659000 -05:00
+  - :path: app/models/user.rb
+    :cursor_offset: 807
+    :timestamp: 2012-03-22 00:55:34.340000 -04:00
+  - :path: db/migrate/20120225055119_add_password_to_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-02-25 00:51:19.881000 -05:00
+  - :path: db/migrate/20120322163523_add_salt_to_users.rb
+    :cursor_offset: 0
+    :timestamp: 2012-03-22 12:35:23.405000 -04:00
+files_to_retain: 0
