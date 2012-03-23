@@ -41,6 +41,7 @@ group :test do
 end
 
 gem 'rspec-core', '2.6.4'
+gem 'gravatar_image_tag', '0.1.0'
 
 
 gem 'autotest-standalone'
