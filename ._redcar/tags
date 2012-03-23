@@ -1,4 +1,4 @@
-1332522203
+1332523633
 AddEmailUniquenessIndex	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/db/migrate/20120222072651_add_email_uniqueness_index.rb	class AddEmailUniquenessIndex 
 AddPasswordToUsers	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/db/migrate/20120225055119_add_password_to_users.rb	class AddPasswordToUsers 
 AddSaltToUsers	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/db/migrate/20120322163523_add_salt_to_users.rb	class AddSaltToUsers 
@@ -342,6 +342,7 @@ should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/s
 should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/pages_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
 should have the right title	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right title" do
+should have the right url	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should have the right url" do
 should have the user's name	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/controllers/users_controller_spec.rb	it "should have the user's name" do
 should reject duplicate email addresses	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject duplicate email addresses" do
 should reject email addresses identical up to case	C:/Users/Malik/Documents/Aptana Studio 3 Workspace/sample_app/spec/models/user_spec.rb	it "should reject email addresses identical up to case" do
